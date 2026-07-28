@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-PT">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -46,14 +46,14 @@
     <div id="language-modal" class="fixed inset-0 bg-slate-900/80 z-[100] flex items-center justify-center backdrop-blur-md transition-opacity duration-300 px-4">
         <div class="bg-white p-6 rounded-[2rem] w-full max-w-sm text-center shadow-2xl scale-up border border-slate-100">
             <div class="w-14 h-14 bg-blue-50 text-accent rounded-full flex items-center justify-center mx-auto mb-3">
-                <i class="fa-solid fa-earth-americas text-2xl"></i>
+                <i class="fa-solid fa-earth-europe text-2xl"></i>
             </div>
             <h2 class="text-xl font-black text-primary mb-1 tracking-tight">Select your language</h2>
             <p class="text-slate-500 text-[11px] mb-5 font-medium uppercase tracking-wider">Choose to continue</p>
             
             <div class="flex flex-col gap-2.5">
                 <button onclick="chooseLanguageInit('pt')" class="lang-btn w-full bg-slate-50 hover:bg-slate-100 border border-border text-slate-700 font-bold py-3 px-4 rounded-xl flex items-center gap-3 shadow-sm">
-                    <span class="text-xl w-8">🇧🇷</span> Português (BR)
+                    <span class="text-xl w-8">🇵🇹</span> Português (PT)
                 </button>
                 <button onclick="chooseLanguageInit('en')" class="lang-btn w-full bg-slate-50 hover:bg-slate-100 border border-border text-slate-700 font-bold py-3 px-4 rounded-xl flex items-center gap-3 shadow-sm">
                     <span class="text-xl w-8">🇺🇸</span> English (US)
@@ -83,7 +83,7 @@
                 </div>
                 
                 <div class="flex gap-2">
-                    <button onclick="setLanguage('pt')" id="lang-pt" class="text-lg opacity-30 hover:opacity-100 transition-opacity">🇧🇷</button>
+                    <button onclick="setLanguage('pt')" id="lang-pt" class="text-lg opacity-30 hover:opacity-100 transition-opacity">🇵🇹</button>
                     <button onclick="setLanguage('en')" id="lang-en" class="text-lg opacity-30 hover:opacity-100 transition-opacity">🇺🇸</button>
                     <button onclick="setLanguage('es')" id="lang-es" class="text-lg opacity-30 hover:opacity-100 transition-opacity">🇪🇸</button>
                     <button onclick="setLanguage('fr')" id="lang-fr" class="text-lg opacity-30 hover:opacity-100 transition-opacity">🇫🇷</button>
@@ -112,7 +112,7 @@
                     <p class="text-slate-500 text-sm mb-3">@Vitoriaprivadinho</p>
                     
                     <p class="text-sm text-slate-600 leading-relaxed font-medium mb-4" data-i18n="bio_text">
-                        Tenho vários vídeos privadinhos pra você. Acesso liberado instantaneamente na tela após a confirmação. 😈
+                        Tenho vários vídeos privados para ti. Acesso libertado instantaneamente no ecrã após a confirmação. 😈
                     </p>
 
                     <!-- Trust Badge -->
@@ -120,7 +120,7 @@
                         <i class="fa-solid fa-eye-slash text-slate-400 mt-0.5"></i>
                         <div>
                             <p class="text-xs font-bold text-slate-700 uppercase tracking-wide" data-i18n="discreet_title">Fatura 100% Discreta</p>
-                            <p class="text-[11px] text-slate-500 mt-0.5" data-i18n="discreet_desc">Sua privacidade garantida. Nenhum termo adulto aparecerá no seu extrato bancário.</p>
+                            <p class="text-[11px] text-slate-500 mt-0.5" data-i18n="discreet_desc">A tua privacidade está garantida. Nenhum termo adulto aparecerá no teu extrato bancário.</p>
                         </div>
                     </div>
                 </div>
@@ -144,7 +144,7 @@
                             <div class="locked-overlay hidden absolute inset-0 bg-slate-900/70 backdrop-blur-[2px] flex flex-col items-center justify-center text-white p-2 text-center z-10 transition-opacity">
                                 <i class="fa-solid fa-lock text-3xl mb-2 text-accent"></i>
                                 <span class="text-[10px] font-black uppercase tracking-widest mb-1 text-red-400" data-i18n="time_out">Tempo Esgotado</span>
-                                <span class="text-[9px] leading-tight text-slate-300 font-medium uppercase tracking-wider" data-i18n="subscribe_full">Assine para ver completo</span>
+                                <span class="text-[9px] leading-tight text-slate-300 font-medium uppercase tracking-wider" data-i18n="subscribe_full">Assina para ver completo</span>
                             </div>
                         </div>
                         
@@ -159,7 +159,7 @@
                             <div class="locked-overlay hidden absolute inset-0 bg-slate-900/70 backdrop-blur-[2px] flex flex-col items-center justify-center text-white p-2 text-center z-10 transition-opacity">
                                 <i class="fa-solid fa-lock text-3xl mb-2 text-accent"></i>
                                 <span class="text-[10px] font-black uppercase tracking-widest mb-1 text-red-400" data-i18n="time_out">Tempo Esgotado</span>
-                                <span class="text-[9px] leading-tight text-slate-300 font-medium uppercase tracking-wider" data-i18n="subscribe_full">Assine para ver completo</span>
+                                <span class="text-[9px] leading-tight text-slate-300 font-medium uppercase tracking-wider" data-i18n="subscribe_full">Assina para ver completo</span>
                             </div>
                         </div>
                     </div>
@@ -167,7 +167,7 @@
                     <div class="relative z-10 mt-2">
                         <div class="rounded-2xl overflow-hidden border border-slate-200 shadow-md relative bg-black">
                             <div class="absolute top-3 right-3 bg-red-600 text-white text-[10px] font-black px-3 py-1.5 rounded-lg animate-pulse z-20 uppercase tracking-widest flex items-center gap-1 shadow-lg">
-                                <i class="fa-solid fa-fire"></i> <span data-i18n="leaked_files">+100 Arquivos Vazados</span>
+                                <i class="fa-solid fa-fire"></i> <span data-i18n="leaked_files">+100 Ficheiros Exclusivos</span>
                             </div>
                             <img src="https://i.postimg.cc/XqCGhBJ7/download-(1).gif" alt="Preview Acervo" class="w-full h-auto object-cover opacity-80">
                             <div class="absolute bottom-0 left-0 w-full bg-gradient-to-t from-slate-900 via-slate-900/60 to-transparent p-4 pt-12">
@@ -176,8 +176,8 @@
                                         <i class="fa-solid fa-unlock-keyhole text-lg"></i>
                                     </div>
                                     <div class="flex flex-col">
-                                        <span class="text-white font-black text-xl leading-none" data-i18n="full_archive">Acervo Completo</span>
-                                        <span class="text-slate-300 text-[10px] mt-1 font-medium uppercase tracking-wider" data-i18n="auto_release">Liberação imediata na tela</span>
+                                        <span class="text-white font-black text-xl leading-none" data-i18n="full_archive">Coleção Completa</span>
+                                        <span class="text-slate-300 text-[10px] mt-1 font-medium uppercase tracking-wider" data-i18n="auto_release">Libertação imediata no ecrã</span>
                                     </div>
                                 </div>
                             </div>
@@ -185,22 +185,18 @@
                     </div>
                 </div>
 
-                <!-- Área de Pagamento (Múltiplas Moedas) -->
+                <!-- Área de Pagamento (Focada em Portugal) -->
                 <div class="px-5 py-6 bg-white" id="payment-section">
-                    <h3 class="text-sm font-bold text-slate-800 uppercase tracking-wider mb-4" data-i18n="select_currency">Escolha sua Moeda</h3>
+                    <h3 class="text-sm font-bold text-slate-800 uppercase tracking-wider mb-4" data-i18n="select_currency">Escolhe a tua Moeda</h3>
                     
-                    <div class="grid grid-cols-3 gap-2 mb-6">
-                        <button onclick="selectCurrency('brl')" id="btn-brl" class="payment-tab active border border-border rounded-xl py-3 text-sm font-medium flex flex-col items-center gap-1 shadow-sm">
-                            <i class="fa-brands fa-pix text-teal-500 text-lg"></i>
-                            BRL (Pix)
+                    <div class="grid grid-cols-2 gap-3 mb-6">
+                        <button onclick="selectCurrency('eur')" id="btn-eur" class="payment-tab active border border-border rounded-xl py-3 text-sm font-medium flex flex-col items-center gap-1 shadow-sm">
+                            <i class="fa-solid fa-euro-sign text-teal-500 text-lg"></i>
+                            EUR (€)
                         </button>
                         <button onclick="selectCurrency('usd')" id="btn-usd" class="payment-tab border border-border rounded-xl py-3 text-sm font-medium flex flex-col items-center gap-1 shadow-sm text-slate-600 hover:bg-slate-50">
                             <i class="fa-regular fa-credit-card text-slate-400 text-lg"></i>
                             USD ($)
-                        </button>
-                        <button onclick="selectCurrency('eur')" id="btn-eur" class="payment-tab border border-border rounded-xl py-3 text-sm font-medium flex flex-col items-center gap-1 shadow-sm text-slate-600 hover:bg-slate-50">
-                            <i class="fa-solid fa-euro-sign text-slate-400 text-lg"></i>
-                            EUR (€)
                         </button>
                     </div>
 
@@ -213,8 +209,8 @@
                         <div class="flex items-end justify-between mt-4 border-t border-slate-200 pt-3">
                             <span class="text-xs text-slate-500 uppercase font-bold tracking-wider" data-i18n="total_pay">Total a pagar</span>
                             <div class="text-right">
-                                <p class="text-xs text-slate-400 line-through mb-0.5 font-semibold" id="display-old-price">R$ 149,90</p>
-                                <p class="text-3xl font-black text-primary tracking-tight" id="display-price">R$ 59,90</p>
+                                <p class="text-xs text-slate-400 line-through mb-0.5 font-semibold" id="display-old-price">€ 29.99</p>
+                                <p class="text-3xl font-black text-primary tracking-tight" id="display-price">€ 9.99</p>
                             </div>
                         </div>
                     </div>
@@ -224,11 +220,11 @@
                 <div class="px-5 pb-6 flex flex-col gap-3 text-[11px] text-slate-500 font-medium">
                     <div class="flex items-center gap-2">
                         <i class="fa-solid fa-shield-halved text-success"></i>
-                        <span data-i18n="guarantee_1">Ambiente criptografado 256-bits. Seus dados estão seguros.</span>
+                        <span data-i18n="guarantee_1">Ambiente encriptado 256-bits. Os teus dados estão seguros.</span>
                     </div>
                     <div class="flex items-center gap-2">
                         <i class="fa-solid fa-user-secret text-slate-400"></i>
-                        <span data-i18n="guarantee_2">Atendimento sigiloso. Nós não compartilhamos suas informações.</span>
+                        <span data-i18n="guarantee_2">Atendimento confidencial. Nós não partilhamos as tuas informações.</span>
                     </div>
                 </div>
             </main>
@@ -237,83 +233,44 @@
             <div class="absolute bottom-0 left-0 w-full bg-white/90 backdrop-blur-md border-t border-border p-4 shadow-[0_-10px_30px_rgba(0,0,0,0.05)] z-40">
                 <button onclick="handleCheckoutAction()" id="main-checkout-btn" class="w-full bg-accent hover:bg-blue-600 text-white rounded-xl py-4 px-4 font-black text-[15px] transition-all flex items-center justify-center gap-2 shadow-lg shadow-blue-500/30 active:scale-[0.98]">
                     <i class="fa-solid fa-lock" id="btn-icon"></i>
-                    <span id="btn-text" data-i18n="btn_pay_pix">DESBLOQUEAR COM PIX</span>
+                    <span id="btn-text" data-i18n="btn_pay_card">DESBLOQUEAR COM MB WAY / CARTÃO</span>
                 </button>
-            </div>
-
-            <!-- Modal PIX -->
-            <div id="pix-modal-overlay" class="fixed inset-0 bg-slate-900/60 z-50 hidden opacity-0 transition-opacity backdrop-blur-sm" onclick="closePixModal()"></div>
-            <div id="pix-modal" class="fixed bottom-0 left-0 w-full bg-white rounded-t-[2rem] z-50 hidden flex-col shadow-2xl max-h-[90vh] overflow-y-auto transition-transform translate-y-full duration-300">
-                <div class="flex justify-center p-3">
-                    <div class="w-12 h-1.5 bg-slate-200 rounded-full"></div>
-                </div>
-                <div class="px-6 pb-8 text-center relative">
-                    <button onclick="closePixModal()" class="absolute right-4 top-0 w-8 h-8 flex items-center justify-center bg-slate-100 rounded-full text-slate-500 hover:bg-slate-200">
-                        <i class="fa-solid fa-xmark"></i>
-                    </button>
-                    <div class="inline-flex items-center justify-center w-12 h-12 bg-teal-50 text-teal-600 rounded-full mb-3">
-                        <i class="fa-brands fa-pix text-2xl"></i>
-                    </div>
-                    <h3 class="text-xl font-bold text-primary mb-1" data-i18n="pix_title">Pagamento via PIX</h3>
-                    <p class="text-slate-500 text-sm mb-6" data-i18n="pix_desc">Copie o código abaixo. O acesso será liberado automaticamente nesta tela.</p>
-                    
-                    <div class="bg-white border border-border p-4 rounded-2xl inline-block mb-6 shadow-sm">
-                        <img id="pix-qr-img" src="" alt="QR Code PIX" class="w-40 h-40 mx-auto">
-                    </div>
-                    
-                    <div class="bg-surface border border-border rounded-xl flex items-center p-1.5 mb-4 shadow-inner">
-                        <input type="text" id="pix-code" readonly value="" class="bg-transparent text-sm text-slate-700 w-full px-3 outline-none font-mono truncate">
-                        <button onclick="copyPixCode()" class="bg-primary text-white px-5 py-2.5 rounded-lg text-sm font-bold active:scale-95 transition-transform whitespace-nowrap shadow-md" data-i18n="btn_copy">Copiar</button>
-                    </div>
-                    <p id="copy-msg" class="text-sm text-success font-medium h-5 opacity-0 transition-opacity mt-[-10px] mb-2" data-i18n="msg_copied">Código copiado!</p>
-                    
-                    <button onclick="verifyPaymentRedirect()" class="w-full bg-success hover:bg-emerald-600 text-white font-bold py-4 rounded-xl transition-all shadow-md flex items-center justify-center gap-2">
-                        <i class="fa-solid fa-circle-check"></i> <span data-i18n="btn_verify">Já paguei! Liberar acesso</span>
-                    </button>
-                </div>
             </div>
         </div>
     </div>
 
     <script>
-        // --- 1. CONFIGURAÇÃO DE MOEDAS COM NOVOS PREÇOS ---
+        // --- 1. CONFIGURAÇÃO DE MOEDAS (Focadas no mercado Europeu/Internacional) ---
         const currencies = {
-            brl: { symbol: 'R$', price: '59,90', oldPrice: '149,90', icon: 'fa-pix', btnTextKey: 'btn_pay_pix', isStripe: false },
-            usd: { symbol: '$', price: '9.99', oldPrice: '29.99', icon: 'fa-credit-card', btnTextKey: 'btn_pay_card', isStripe: true, link: 'https://buy.stripe.com/14A28t7670ujaP126ldAk0m' },
-            eur: { symbol: '€', price: '9.99', oldPrice: '29.99', icon: 'fa-euro-sign', btnTextKey: 'btn_pay_card', isStripe: true, link: 'https://buy.stripe.com/8x2bJ3eyza4T5uHfXbdAk0n' }
+            eur: { symbol: '€', price: '9.99', oldPrice: '29.99', icon: 'fa-euro-sign', btnTextKey: 'btn_pay_card', link: 'https://buy.stripe.com/8x2bJ3eyza4T5uHfXbdAk0n' },
+            usd: { symbol: '$', price: '9.99', oldPrice: '29.99', icon: 'fa-credit-card', btnTextKey: 'btn_pay_card', link: 'https://buy.stripe.com/14A28t7670ujaP126ldAk0m' }
         };
 
-        let currentCurrency = 'brl';
+        let currentCurrency = 'eur';
         let currentLang = 'pt';
 
-        // --- 2. SISTEMA DE TRADUÇÃO (5 Línguas) ---
+        // --- 2. SISTEMA DE TRADUÇÃO (5 Línguas com PT focado em Portugal) ---
         const translations = {
             pt: {
                 page_title: "📸 Perfil Privado | Checkout Seguro",
                 header_secure: "Checkout Seguro",
-                bio_text: "Tenho vários vídeos privadinhos pra você. Acesso liberado instantaneamente na tela após a confirmação. 😈",
+                bio_text: "Tenho vários vídeos privados para ti. Acesso libertado instantaneamente no ecrã após a confirmação. 😈",
                 discreet_title: "Fatura 100% Discreta",
-                discreet_desc: "Sua privacidade garantida. Nenhum termo adulto aparecerá no seu extrato bancário.",
+                discreet_desc: "A tua privacidade está garantida. Nenhum termo adulto aparecerá no teu extrato bancário.",
                 preview_title: "Prévia do Conteúdo",
                 free_sample: "Amostra Grátis",
                 time_out: "Tempo Esgotado",
-                subscribe_full: "Assine para ver completo",
-                leaked_files: "+100 Arquivos Vazados",
-                full_archive: "Acervo Completo",
-                auto_release: "Liberação imediata na tela",
-                select_currency: "Escolha como pagar",
+                subscribe_full: "Assina para ver completo",
+                leaked_files: "+100 Ficheiros Exclusivos",
+                full_archive: "Coleção Completa",
+                auto_release: "Libertação imediata no ecrã",
+                select_currency: "Escolhe a tua moeda",
                 plan_name: "Acesso VIP Vitalício",
                 instant_access: "Acesso Imediato",
                 total_pay: "Total a pagar",
-                guarantee_1: "Ambiente criptografado 256-bits. Seus dados estão seguros.",
-                guarantee_2: "Atendimento sigiloso. Nós não compartilhamos suas informações.",
-                btn_pay_pix: "DESBLOQUEAR COM PIX",
-                btn_pay_card: "PAGAR COM CARTÃO SEGURO",
-                pix_title: "Pagamento via PIX",
-                pix_desc: "Copie o código abaixo. O acesso será liberado automaticamente nesta tela.",
-                btn_copy: "Copiar",
-                msg_copied: "Código copiado!",
-                btn_verify: "Já paguei! Liberar acesso"
+                guarantee_1: "Ambiente encriptado 256-bits. Os teus dados estão seguros.",
+                guarantee_2: "Atendimento confidencial. Nós não partilhamos as tuas informações.",
+                btn_pay_card: "DESBLOQUEAR COM MB WAY / CARTÃO"
             },
             en: {
                 page_title: "📸 Private Profile | Secure Checkout",
@@ -334,13 +291,7 @@
                 total_pay: "Total to pay",
                 guarantee_1: "256-bit encrypted environment. Your data is perfectly safe.",
                 guarantee_2: "Confidential service. We never share your personal information.",
-                btn_pay_pix: "UNLOCK WITH PIX",
-                btn_pay_card: "PAY SECURELY WITH CARD",
-                pix_title: "PIX Payment",
-                pix_desc: "Copy the code below. Access will be granted automatically on this screen.",
-                btn_copy: "Copy",
-                msg_copied: "Code copied!",
-                btn_verify: "I've paid! Unlock access"
+                btn_pay_card: "PAY SECURELY WITH CARD"
             },
             es: {
                 page_title: "📸 Perfil Privado | Checkout Seguro",
@@ -361,13 +312,7 @@
                 total_pay: "Total a pagar",
                 guarantee_1: "Entorno encriptado 256-bits. Tus datos están seguros.",
                 guarantee_2: "Servicio confidencial. Nunca compartimos tu información.",
-                btn_pay_pix: "DESBLOQUEAR CON PIX",
-                btn_pay_card: "PAGAR CON TARJETA",
-                pix_title: "Pago vía PIX",
-                pix_desc: "Copia el código abajo. El acceso será liberado automáticamente en esta pantalla.",
-                btn_copy: "Copiar",
-                msg_copied: "¡Código copiado!",
-                btn_verify: "¡Ya pagué! Liberar acceso"
+                btn_pay_card: "PAGAR CON TARJETA"
             },
             fr: {
                 page_title: "📸 Profil Privé | Paiement Sécurisé",
@@ -388,13 +333,7 @@
                 total_pay: "Total à payer",
                 guarantee_1: "Environnement crypté 256 bits. Vos données sont en sécurité.",
                 guarantee_2: "Service confidentiel. Nous ne partageons jamais vos informations.",
-                btn_pay_pix: "DÉBLOQUER AVEC PIX",
-                btn_pay_card: "PAYER PAR CARTE SÉCURISÉE",
-                pix_title: "Paiement PIX",
-                pix_desc: "Copiez le code ci-dessous. L'accès sera accordé automatiquement sur cet écran.",
-                btn_copy: "Copier",
-                msg_copied: "Code copié !",
-                btn_verify: "J'ai payé ! Débloquer l'accès"
+                btn_pay_card: "PAYER PAR CARTE SÉCURISÉE"
             },
             de: {
                 page_title: "📸 Privates Profil | Sichere Kasse",
@@ -415,13 +354,7 @@
                 total_pay: "Zu zahlender Gesamtbetrag",
                 guarantee_1: "256-Bit-verschlüsselte Umgebung. Deine Daten sind sicher.",
                 guarantee_2: "Vertraulicher Service. Wir teilen niemals deine Informationen.",
-                btn_pay_pix: "MIT PIX ENTSPERREN",
-                btn_pay_card: "SICHER MIT KARTE BEZAHLEN",
-                pix_title: "PIX-Zahlung",
-                pix_desc: "Kopiere den Code unten. Der Zugriff wird automatisch auf diesem Bildschirm gewährt.",
-                btn_copy: "Kopieren",
-                msg_copied: "Code kopiert!",
-                btn_verify: "Ich habe bezahlt! Zugang freischalten"
+                btn_pay_card: "SICHER MIT KARTE BEZAHLEN"
             }
         };
 
@@ -429,9 +362,8 @@
         function chooseLanguageInit(lang) {
             setLanguage(lang);
             
-            if(lang === 'pt') selectCurrency('brl');
+            if(lang === 'pt' || lang === 'fr' || lang === 'de') selectCurrency('eur');
             else if(lang === 'en' || lang === 'es') selectCurrency('usd');
-            else if(lang === 'fr' || lang === 'de') selectCurrency('eur');
 
             const modal = document.getElementById('language-modal');
             const content = document.getElementById('main-content');
@@ -531,84 +463,8 @@
 
         function handleCheckoutAction() {
             const data = currencies[currentCurrency];
-            if (data.isStripe) {
-                window.location.href = data.link + window.location.search;
-            } else {
-                processPixCheckout();
-            }
-        }
-
-        async function processPixCheckout() {
-            const HOTTRACK_API_URL = 'https://hot-track.com';
-            const HOTTRACK_TOKEN = 'b8b1773f-fd02-434d-aaf0-78815369b8f1';
-            const btnSpan = document.getElementById('btn-text');
-            const originalText = btnSpan.innerText;
-            const btnCheckout = document.getElementById('main-checkout-btn');
-            
-            try {
-                btnSpan.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i>';
-                btnCheckout.disabled = true;
-                
-                const response = await fetch(`${HOTTRACK_API_URL}/api/pix/generate`, {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/json', 'x-api-key': HOTTRACK_TOKEN },
-                    body: JSON.stringify({ 
-                        click_id: "lead_padrao_" + Math.random().toString(36).substring(2, 7),
-                        value_cents: 5990, // Atualizado para R$ 59,90
-                        product: { name: "Mini App VIP" }
-                    }) 
-                });
-
-                const data = await response.json();
-
-                if (response.ok && data.qr_code_text) {
-                    window.currentTransactionId = data.transaction_id || data.id; 
-                    document.getElementById('pix-code').value = data.qr_code_text;
-                    document.getElementById('pix-qr-img').src = `https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${encodeURIComponent(data.qr_code_text)}`;
-                    openPixModal();
-                } else {
-                    throw new Error("Mock API fallback");
-                }
-            } catch (error) {
-                document.getElementById('pix-code').value = "00020126580014br.gov.bcb.pix0136...";
-                document.getElementById('pix-qr-img').src = `https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=mock`;
-                openPixModal();
-            } finally {
-                btnSpan.innerText = originalText;
-                btnCheckout.disabled = false;
-            }
-        }
-
-        function openPixModal() {
-            const modal = document.getElementById('pix-modal');
-            const overlay = document.getElementById('pix-modal-overlay');
-            overlay.classList.remove('hidden');
-            modal.classList.remove('hidden');
-            setTimeout(() => {
-                overlay.classList.replace('opacity-0', 'opacity-100');
-                modal.classList.remove('translate-y-full');
-            }, 10);
-        }
-
-        function closePixModal() {
-            const modal = document.getElementById('pix-modal');
-            const overlay = document.getElementById('pix-modal-overlay');
-            overlay.classList.replace('opacity-100', 'opacity-0');
-            modal.classList.add('translate-y-full');
-            setTimeout(() => {
-                overlay.classList.add('hidden');
-                modal.classList.add('hidden');
-            }, 300);
-        }
-
-        function copyPixCode() {
-            const pixCode = document.getElementById('pix-code');
-            pixCode.select();
-            navigator.clipboard.writeText(pixCode.value).then(() => {
-                const msg = document.getElementById('copy-msg');
-                msg.classList.replace('opacity-0', 'opacity-100');
-                setTimeout(() => msg.classList.replace('opacity-100', 'opacity-0'), 2500);
-            });
+            // O botão redireciona diretamente para o link de checkout do Stripe gerado para a moeda
+            window.location.href = data.link + window.location.search;
         }
     </script>
 </body>
